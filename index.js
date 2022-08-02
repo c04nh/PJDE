@@ -122,7 +122,7 @@ app.get("/main/:id/calender", function(req,res){
       });
     });
 })
-
+ 
 app.get("/main/:id/calender/addSchedule", function(req,res){
     var userId = req.cookies['id'];
     var userName = req.cookies['name'];
